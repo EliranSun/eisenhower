@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App table {
+  opacity: 0.6;
+  border-collapse: collapse;
+}
+
+.App table td {
+  border: 5px dashed white;
+  width: 50vw;
+  height: 50vh;
+}
+
+.add-task-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.draggable-input {
+  cursor: pointer;
+  width: 230px;
+}
+
+h1 {
+  font-weight: 900;
+  margin: 0;
+  font-family: 'Source Sans Pro',
+    sans-serif;
+}
+
+h2 {
+  font-weight: 100;
+  margin: 0;
+  font-family: 'Shadows Into Light',
+    cursive;
+}
